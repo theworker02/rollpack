@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/rollpack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Roll identifiers and pack tokens for idempotent workflows.",
+  "bin": {
+    "rollpack": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/rollpack.git"
+  },
+  "homepage": "https://theworker02.github.io/rollpack/",
+  "keywords": [
+    "roll",
+    "pack",
+    "id",
+    "cli",
+    "toolkit"
+  ]
+}
